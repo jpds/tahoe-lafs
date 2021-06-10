@@ -114,8 +114,7 @@ install_requires = [
 
     # Pyrsistent 0.17.0 (which we use by way of Eliot) has dropped
     # Python 2 entirely; stick to the version known to work for us.
-    # XXX: drop this bound: https://tahoe-lafs.org/trac/tahoe-lafs/ticket/3404
-    "pyrsistent < 0.17.0",
+    "pyrsistent",
 
     # A great way to define types of values.
     "attrs >= 18.2.0",
